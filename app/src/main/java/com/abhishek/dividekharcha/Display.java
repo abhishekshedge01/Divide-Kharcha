@@ -121,7 +121,7 @@ public class Display extends AppCompatActivity
                 int randomColor = getRandomColor();
                 holder.mlayout.setBackgroundColor(holder.itemView.getResources().getColor(randomColor, null));
                 holder.givenName.setText(finalmodel.getName());
-                holder.givenMoney.setText("Rs. "+ str);
+                holder.givenMoney.setText("Rs. "+no3);
 
             }
 

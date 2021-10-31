@@ -69,7 +69,6 @@ public class Friends extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), CreateFriends.class);
                 startActivity(intent);
-                count=0;
             }
         });
 
@@ -81,6 +80,7 @@ public class Friends extends AppCompatActivity {
                 intent.putExtra("count",count);
                 startActivity(intent);
                 count=0;
+                finish();
             }
         });
 
