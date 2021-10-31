@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".Display">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="610dp"
+        android:fontFamily="@font/chivo"
+        app:backgroundTint="#4CAF50"
+        android:textSize="20sp"
+        android:id="@+id/sendMail"
+        android:text="Send mail"
+        android:textAllCaps="false"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="670dp"
+        android:fontFamily="@font/chivo"
+        app:backgroundTint="#BF0242"
+        android:textSize="20sp"
+        android:id="@+id/done"
+        android:text="Exit!"
+        android:textAllCaps="false"
+        >
+    </Button>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"></androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/flt"
+        app:borderWidth="0dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#FF9800"
+        android:elevation="12dp"
+        app:maxImageSize="30dp"
+        app:backgroundTint="@null"
+        android:src="@drawable/add_btn"
+        android:background="#FF9800"
+        android:contentDescription="todo"
+        android:layout_alignParentEnd="true">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="670dp"
+        android:fontFamily="@font/chivo"
+        app:backgroundTint="#BF0242"
+        android:textSize="20sp"
+        android:id="@+id/split"
+        android:text="Split Now!"
+        android:textAllCaps="false"
+        >
+    </Button>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler"
+        android:scrollbars="vertical">
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

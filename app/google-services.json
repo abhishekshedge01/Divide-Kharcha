@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "672687080626",
+    "project_id": "dividekharcha",
+    "storage_bucket": "dividekharcha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672687080626:android:273f4741a590765ad4b5ab",
+        "android_client_info": {
+          "package_name": "com.abhishek.dividekharcha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672687080626-8pr492hkfkfc3dl86c14dkafl3q34hth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU3GRklkg7xZlwSGjjSa8d6pFIPEx40dc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672687080626-8pr492hkfkfc3dl86c14dkafl3q34hth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color4"
+    tools:context=".CreateFriends">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="#FFFFFF">
+
+        <EditText
+            android:id="@+id/friendname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autofillHints=""
+            android:background="@null"
+            android:fontFamily="@font/asap"
+            android:hint="Enter name of Person"
+            android:inputType="textNoSuggestions"
+            android:paddingTop="15dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/friendemail"
+            android:hint="email of user"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autofillHints=""
+            android:paddingLeft="16dp"
+            android:background="#00000000"
+            android:paddingTop="20dp"
+            android:fontFamily="@font/chivo"
+            android:gravity="top|left"
+            android:inputType="textNoSuggestions"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:id="@+id/save"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_alignParentRight="true"
+        app:backgroundTint="#FF9800"
+        android:background="#FFFF9800"
+        android:backgroundTint="#FFFF9800"
+        app:elevation="12dp"
+        android:src="@drawable/save_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        app:maxImageSize="30dp"
+        tools:ignore="InvalidId,RtlHardcoded"
+        android:contentDescription="todo">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+</RelativeLayout>
